@@ -1,0 +1,688 @@
+/* Tablettes 768px - 992px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+ /* Header + section 1 */   
+    
+    body {
+      margin: 0;
+    }
+    header {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0px 0px 0px;
+    }
+    .booki{
+      display: flex;
+      margin-left: 0px;
+      margin-bottom: 30px;
+      width: 115px;
+      padding-left: 80px;
+    }
+    nav {
+      display: flex;
+      width: auto;
+    }
+    .menus{
+     width: auto;
+     padding-bottom: 20px;
+    }
+    nav .menus:hover {
+      border-bottom:#0065FC 3px solid;
+      border-top: 0px;
+      color:#0065FC;
+      text-decoration: none;
+      width: 50%;
+    }
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+      }
+    h3 {
+        color: black;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        padding-left: 30px;
+        margin-bottom: 0px;
+      }
+    #section_1 h3 {
+        display: flex;
+        justify-content: center;
+      }
+      
+    form {
+        display: flex;
+        margin-bottom: 30px;
+        width: auto;
+        justify-content: center;
+      }
+    button {
+      content: '<i class="fas fa-search">';
+    }
+    .filtres {
+        display: flex;
+        justify-content: center;
+    }
+    h4 {
+      margin-bottom: 35px;
+    }
+    .options{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    #infos {
+        display: flex;
+        justify-content: center;
+      }
+      
+
+/* Sections 2 + 3 */
+/*3*/
+    #sections {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    #section_3 {
+        border-radius: 0px;
+        width: auto;
+        align-content: center;
+        align-items: center;
+        margin-left: 0;
+      }
+      #section_3 h1 {
+        padding: 20px 0px 30px 0px;
+        margin-left: 0px;
+        padding-right: 60px;
+      }
+      #graphique {
+        padding-right: 20px;
+        padding-left: 0px;
+      }
+      .bloc {
+        display: flex;
+        align-items: flex-start;
+      }
+      #section_3 p {
+        padding-top: 10px;
+      }
+/*2*/     
+      #section_2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        border: #FFFFFF solid 1px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: auto;
+      }
+      .cartes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: #FFFFFF solid 1px;
+        border-radius: 30px;
+        background-color: #FFFFFF;
+        height: 30%; 
+        text-decoration: none;
+        box-shadow: 0px 6px 10px #F2F2F2;
+      }
+      #section_2 h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        padding: 20px 0px 40px 0px;
+        width: auto;
+      }
+
+     /*Section 4 */
+     
+     #section_4 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+      }
+      #section_4 h1 {
+        width: auto;
+        margin-bottom: 30px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+      }
+
+      /* Footer */
+
+      #pied_de_page {
+        display: flex;
+        justify-content: center;
+      }
+
+}
+  
+
+   
+  
+ 
+  
+  
+/* Téléphone -768px */
+  
+/* Header + section 1 */ 
+
+@media screen and (max-width: 768px) {
+
+    #ville {
+      width: 50%;
+    }
+    .populaire-carte {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    body {
+      margin: 0;
+    }
+    header {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0px 0px 0px;
+    }
+    .booki{
+      display: flex;
+      margin-left: 0px;
+      margin-bottom: 30px;
+      width: 125px;
+    }
+    nav {
+      display: flex;
+      width: 100%;
+    }
+    a.menus.heb {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
+    .menus{
+      display: flex;
+      justify-content: center;
+      width: 50%; 
+      padding-bottom: 20px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    nav .menus:hover {
+      border-bottom:#0065FC 3px solid;
+      border-top: 0px;
+      color:#0065FC;
+      text-decoration: none;
+    }
+    h1 {
+        display: flex;
+        font-size: 47px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        margin-left: 50px;
+      }
+    h3 {
+        color: black;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        padding-left: 30px;
+        margin-bottom: 0px;
+    }
+    #section_1 {
+      margin: 0;
+    }
+    #section_1 h1 {
+      margin-left: 5%;
+    }
+    #section_1 h3 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 32px;
+        margin-left: 5%;
+      }
+    form {
+        display: flex;
+        margin-bottom: 30px;
+        width: auto;
+        justify-content: flex-start;
+    }
+    #pointage_lieu{
+      font-size: 32px;
+      width: 96px;
+      height: 96px;
+      margin-left: 5%;
+    }
+    input {
+      z-index: 1;
+      width: 400px;
+      height: 86px;
+      font-size: 35px;
+      padding-left: 28px;
+      padding-right: 50px;
+    }
+    ::placeholder{
+      font-size: 35px;
+    }
+    button {
+      z-index: 2;
+      content: '<i class="fas fa-search">';
+      font-size: 32px;
+      width: 108px;
+      height: 108px;
+      display: flex;
+      justify-content: center;
+      border-radius: 35px;
+      margin-left: -25px;
+    }
+    span .text_button {
+      display: none;
+    }
+    span .fas {
+     color: #FFFFFF; 
+     display: initial;
+    }
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-left: 5%;
+        width: 90% !important;
+    }
+    h4 {
+      display: flex;
+      font-size: 28px;
+    }
+    .filtres p {
+      display: flex;
+      font-size: 28px;
+    }
+    .options{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .maquette_mobile{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #argent {
+      margin-left: 0;
+      width: 324px;
+      max-width: 90%;
+      height: 80px;
+    }
+    #iconebillet {
+      width: 71px;
+      height: 71px;
+      margin-left: -70px;
+      font-size: 28px;
+    }
+    #famille {
+      margin-left: 0;
+      width: 280px;
+      max-width: 90%;
+      height: 80px;
+    }
+    #iconefamille {
+      width: 71px;
+      height: 71px;
+      margin-left: -82px;
+      font-size: 28px;
+    }
+    #coeur {
+      margin-left: 0;
+      max-width: 90%;
+      width: 304px;
+      height: 80px;
+    }
+    #iconecoeur {
+      width: 71px;
+      height: 71px;
+      margin-left: -49px;
+      font-size: 28px;
+    }
+    #animaux {
+      margin-left: 0;
+      max-width: 70%;
+      height: 80px;
+      flex-wrap: nowrap;
+    }
+    #animaux_autorises {
+      width: 50%;
+    }
+    #economique {
+      width: 50%;
+    }
+    #iconechien {
+      width: 71px;
+      height: 71px;
+      margin-left: -49px;
+      font-size: 28px;
+    }
+    #infos {
+      display: flex;
+      margin-left: 5%;
+      font-size: 32px;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    #iconeinfo {
+      width: 50px;
+      height: 40px;
+      margin-top: 20px;
+      margin-right: 20px;
+      font-size: 28px;
+    }
+
+      /* Sections 2 + 3 */
+
+/*3*/
+
+    #sections {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0;
+    }
+    #section_3 {
+      border-radius: 0px;
+      width: 100%;
+      align-content: center;
+      align-items: flex-end;
+      margin-left: 0;
+    }
+    #section_3 h1 {
+      font-size: 45px;
+      margin-left: 0px;
+      padding-left: 0;
+      width: 100%;
+    }
+    #graphique {
+      font-size: 45px;
+      padding-right: 20px;
+      padding-left: 0px;
+    }
+
+    .bloc {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #section_3 .bloc {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    #section_3 p {
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    #section_3 h3 {
+      font-size: 32px;
+      margin-top: 31px;
+    }
+    .description-separation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .etoiles_section_3{
+      font-size: 22px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+    #section_3 img {
+      object-fit: cover;
+      width: 35%;
+      height: 277px;
+      border-radius: 30px 0px 0px 30px;
+      padding: 5px;
+    }
+    #hôtel_le_soleil_du_matin {
+      height: 288px;
+      width: 690px;
+      margin-left: 0px;
+    }
+    #au_coeur_de_leau {
+      height: 288px;
+      width: 690px;
+      margin-left: 0px; 
+    }   
+    #hôtel_tout_bleu_et_blanc {
+      height: 288px;
+      width: 690px;
+      margin-left: 0px;
+    }
+    
+  /*2*/     
+    #section_2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      border: #FFFFFF solid 1px;
+      padding-left: 0px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #ligne_1  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .ligne_1 {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    .ligne_2 {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    
+    #section_2 img {
+      width: 100%;
+      height: 230px;
+    }
+    .cartes_h {
+      width: 100%;
+      justify-content: center;
+    }
+    .cartes {
+      width: 92%;
+      box-shadow: 0px 6px 10px #F2F2F2;
+    }
+    .smartphone {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    #en-tête_section {
+      width: 90%;
+      align-self: center;
+      justify-content: space-between;
+    }
+
+    #section_2 h1 {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 40px;
+      padding-left: 25px;
+      width: 90%;
+      margin-left: 0;
+      margin: 0;
+      padding: 50px 0 35px 25px;
+    }
+    .descriptif {
+      margin-top: -15px;
+    }
+    #section_2 p {
+      font-size: 26px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .etoiles_section_2 {
+      font-size: 19px;
+    }
+    #section_2 .plus {
+      padding: 20px 0px 20px 25px;
+    }
+
+  /* Section 4 */
+
+    #section_4 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     width: auto;
+     margin-left: 0px;
+     margin: 0;
+    }
+    #section_4 h1 {
+      padding-left: 20px;
+      width: 440px;
+      font-size: 40px;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+    }
+    #section_4 h3 {
+      font-size: 30px;
+      padding-left: 30px;
+    }
+    #section_4 .grande {
+      max-width: 95%;
+      width: 95%;
+      height: 390px;
+      margin: 0;
+    }
+    .colonne_1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .collonne_2 {
+      align-items: center;
+    }
+    .colonne_2 {
+      align-items: center;
+      width: 100%;
+    }
+    .act_marseille {
+      width: 100%;
+    }
+    #activites{
+      justify-content: space-around;
+    }
+    .act_marseille {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+    }
+    .petite {
+      max-width: 95%;
+      width: 95%;
+      height: 390px;
+      margin: 0;
+    }
+    #section_4 .grande img{
+      width: 100%;
+      height: 275px;
+    }
+    #section_4 .petite img {
+      width: 100%;
+      height: 275px;
+    }
+    #fort_de_pomegues {
+      height: 390px;
+      width: 100%;
+    }
+    #iles_du_frioul {
+      height: 390px;
+      width: 100%;
+    }
+    #notre_dame {
+      height: 390px;
+      width: 100%;
+    }
+    #parc_longchamp {
+      height: 390px;
+      width: 100%;
+    }
+
+  /* Footer */
+
+    #pied_de_page {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #pied_de_page h3 {
+      width: 100%;
+    }
+    #a_propos {
+      margin-right: 0px;
+      margin-left: 50px;
+      width: 80%;
+    }
+    #a_propos p {
+      font-size: 30px;
+    }
+    #nos_hebergements {
+      margin-left: 50px;
+      margin-right: 0px;
+      width: 80%;
+    }
+    #nos_hebergements p {
+      font-size: 30px;
+    }
+    #assistance {
+      margin-left: 50px;
+      margin-right: 0px;
+      width: 80%;
+    }
+    #assistance p {
+      font-size: 30px;
+    }
+    .act_marseille {
+      margin-bottom: 5%;
+    }
+    .remove-link {
+      width: 90%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 992px) {
+  .menus {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menus {
+    font-size: 24px;
+  }
+  #section_3 h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  #section_3 p {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}
